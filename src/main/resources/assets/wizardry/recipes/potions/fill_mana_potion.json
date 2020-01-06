@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bottle",
+      "data": 0
+    },
+    {
+      "item": "wizardry:orb",
+      "data": 1
+    }
+  ],
+  "result": {
+    "item": "wizardry:mana_potion_full",
+    "data": 1
+  }
+}

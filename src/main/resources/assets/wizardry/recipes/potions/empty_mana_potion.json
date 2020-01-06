@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wizardry:mana_potion_full",
+      "data": 1
+    }
+  ],
+  "result": {
+    "item": "wizardry:mana_potion_empty",
+    "data": 0
+  }
+}
