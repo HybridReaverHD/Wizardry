@@ -22,7 +22,8 @@ import net.minecraftforge.fml.common.Loader;
  */
 public class ModItems {
 
-	public static ToolMaterial UNICORN_HORN_MAT = EnumHelper.addToolMaterial("unicorn_horn", 0, 250, 0, -3, 15);
+
+    public static ToolMaterial UNICORN_HORN_MAT = EnumHelper.addToolMaterial("unicorn_horn", 0, 250, 0, -3, 15);
 	
 	public static ItemOrb ORB;
 	public static ItemLevitationOrb LEVITATION_ORB;
@@ -42,6 +43,7 @@ public class ModItems {
 	public static ItemFairy FAIRY_ITEM;
 	public static ItemFairyWings FAIRY_WINGS;
 	public static ItemFairyImbuedApple FAIRY_IMBUED_APPLE;
+	public static Item MANA_POT;
 
 	public static ItemFairyDust FAIRY_DUST;
 	public static ItemDevilDust DEVIL_DUST;
@@ -78,6 +80,7 @@ public class ModItems {
 
 		FAIRY_WINGS = new ItemFairyWings();
 		FAIRY_IMBUED_APPLE = new ItemFairyImbuedApple();
+		MANA_POT = new ItemManaPotion();
 
 		FAIRY_DUST = new ItemFairyDust();
 		DEVIL_DUST = new ItemDevilDust();

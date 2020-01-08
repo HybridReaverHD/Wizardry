@@ -12,6 +12,7 @@ buildscript {
 }
 
 apply plugin: 'net.minecraftforge.gradle.forge'
+// apply plugin: 'java'
 
 version = "$mod_version"
 group = "com.teamwizardry"
@@ -91,3 +92,7 @@ idea {
         testOutputDir = compileTestJava.destinationDir
     }
 }
+
+//compileJava {
+//    options.compilerArgs << '-Xlint:deprecation' << '-Xlint:unchecked'
+//}

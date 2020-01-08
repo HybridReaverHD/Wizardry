@@ -1,6 +1,7 @@
 package com.teamwizardry.wizardry.init;
 
 import com.teamwizardry.wizardry.common.potion.*;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.MinecraftForge;
 
 /**
@@ -8,7 +9,8 @@ import net.minecraftforge.common.MinecraftForge;
  */
 public class ModPotions {
 
-	public static PotionNullGrav NULLIFY_GRAVITY;
+    public static PotionManaRegen MANA_REGEN;
+    public static PotionNullGrav NULLIFY_GRAVITY;
 	public static PotionNullMovement NULL_MOVEMENT;
 	public static PotionSteroid STEROID;
 	public static PotionPhase PHASE;
@@ -35,6 +37,7 @@ public class ModPotions {
 		SUFFOCATE = new PotionSuffocate();
 		BOUNCING = new PotionBouncing();
 		TIME_LOCK = new PotionTimeLock();
+		MANA_REGEN = new PotionManaRegen();
 		MinecraftForge.EVENT_BUS.register(GRACE = new PotionGrace());
 	}
 }
